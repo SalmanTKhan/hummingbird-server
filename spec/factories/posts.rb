@@ -20,6 +20,7 @@
 #  top_level_comments_count :integer          default(0), not null
 #  created_at               :datetime         not null
 #  updated_at               :datetime         not null
+#  ao_id                    :string
 #  media_id                 :integer          indexed => [media_type]
 #  spoiled_unit_id          :integer
 #  target_group_id          :integer
